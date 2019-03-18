@@ -1,0 +1,13 @@
+{
+  "name": "Restyle Intranet",
+  "version": "1.0",
+  "description": "Restyle Intranet",
+
+"content_scripts": [{
+   "matches": ["http://*.intranet.supinternet.fr/*"],
+      "css":["style.css"],
+      "js":["login.js"]
+  }],
+  "web_accessible_resources": ["img/*.png","img/*.jpg"],
+  "manifest_version": 2
+}
